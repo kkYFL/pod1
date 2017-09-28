@@ -15,6 +15,7 @@
 		3A8567EC1F7C985D0001B571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8567EA1F7C985D0001B571 /* LaunchScreen.storyboard */; };
 		3A8567F71F7C985D0001B571 /* pod1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8567F61F7C985D0001B571 /* pod1Tests.m */; };
 		3A8568021F7C985D0001B571 /* pod1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8568011F7C985D0001B571 /* pod1UITests.m */; };
+		3A8568121F7C991D0001B571 /* YFLCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8568111F7C991D0001B571 /* YFLCatalog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3A8567FD1F7C985D0001B571 /* pod1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pod1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8568011F7C985D0001B571 /* pod1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pod1UITests.m; sourceTree = "<group>"; };
 		3A8568031F7C985D0001B571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8568101F7C991D0001B571 /* YFLCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFLCatalog.h; sourceTree = "<group>"; };
+		3A8568111F7C991D0001B571 /* YFLCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFLCatalog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		3A8567D01F7C985D0001B571 = {
 			isa = PBXGroup;
 			children = (
+				3A85680F1F7C990B0001B571 /* YFLCatalog */,
 				3A8567DB1F7C985D0001B571 /* pod1 */,
 				3A8567F51F7C985D0001B571 /* pod1Tests */,
 				3A8568001F7C985D0001B571 /* pod1UITests */,
@@ -138,6 +142,15 @@
 				3A8568031F7C985D0001B571 /* Info.plist */,
 			);
 			path = pod1UITests;
+			sourceTree = "<group>";
+		};
+		3A85680F1F7C990B0001B571 /* YFLCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				3A8568101F7C991D0001B571 /* YFLCatalog.h */,
+				3A8568111F7C991D0001B571 /* YFLCatalog.m */,
+			);
+			path = YFLCatalog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8567E41F7C985D0001B571 /* ViewController.m in Sources */,
+				3A8568121F7C991D0001B571 /* YFLCatalog.m in Sources */,
 				3A8567E11F7C985D0001B571 /* AppDelegate.m in Sources */,
 				3A8567DE1F7C985D0001B571 /* main.m in Sources */,
 			);
