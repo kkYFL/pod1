@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "pod1"
-  s.version      = "v1.2.0"
+  s.version      = "v1.3.0"
   s.summary      = "杨丰林创建的测试pod1测试私有库文件"
 
   # This description is used to generate tags and improve search results.
